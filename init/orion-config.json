@@ -13,13 +13,6 @@
           "private/templates/html/component.html",
           "private/templates/js/component.js"
         ]
-      },
-
-      "coffee" : {
-        "files" : [
-          "private/templates/html/component.html",
-          "private/templates/coffee/component.coffee"
-        ]
       }
     },
     "routes" : {
@@ -38,11 +31,6 @@
         "files" : [
           "private/templates/js/route.js"
         ]
-      },
-      "coffee" : {
-        "files" : [
-          "private/templates/coffee/route.coffee"
-        ]
       }
     },
     "model" : {
@@ -60,12 +48,6 @@
           "private/templates/js/publication.js"
         ],
         "notice" : "Don't forget to add Meteor.subscribe('__modelName__'); to your route!"
-      },
-      "coffee" : {
-        "files" : [
-          "private/templates/coffee/model.coffee",
-          "private/templates/coffee/publication.coffee"
-        ]
       }
     },
     "module" : {
@@ -80,13 +62,6 @@
         "files" : [
           "private/templates/html/module.html",
           "private/templates/js/module.js",
-          "private/templates/less/module.less"
-        ]
-      },
-      "coffee" : {
-        "files" : [
-          "private/templates/html/module.html",
-          "private/templates/coffee/module.coffee",
           "private/templates/less/module.less"
         ]
       }
@@ -149,17 +124,8 @@
         "private/templates/reset/entry.js",
         "private/templates/reset/main.less"
       ]
-    },
-    "coffee" : {
-      "files" : [
-        "private/templates/reset/home.html",
-        "private/templates/reset/layout.html",
-        "private/templates/reset/mainRoutes.coffee",
-        "private/templates/reset/main.less"
-      ]
     }
   },
   "packages": {
-    "coffee": ["coffeescript"]
   }
 }

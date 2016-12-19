@@ -92,8 +92,5 @@ orion generate routes
 
 ### Change profiles
 
-The default profiles in the configuration are __ES2015__ and __coffee__, which generates other kind of files. You can also define your own profiles.
+The default profile in the configuration is __ES2015__, which generates other kind of files. You can also define your own profiles.
 
-```bash
-orion set-profile coffee
-```

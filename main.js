@@ -19,7 +19,7 @@ exports.execute = function () {
     })
     /*.option('profile', {
       abbr: 'p',
-      help: "Choose between default (javascript), es6 (harmony) or coffee (coffeescript) profiles"
+      help: "Choose between default (javascript) or es6 (harmony) profiles"
     }) */
     .callback(require('./commands/create'))
     .help('>>>>>Creates a new app with the Meteor Boilerplate')
