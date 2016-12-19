@@ -1,4 +1,4 @@
-// { "path" : "universal/routes/mainRoutes.js" }
+// { "path" : "imports/routes/mainRoutes.js" }
 export default function () {
   FlowRouter.route('/', {
     action() {

@@ -4,23 +4,26 @@
   "description": "Console scaffolding and development tool for Meteor Projects",
   "main": "notExistant.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "npm pack",
+    "install": "npm install ./*.tgz"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/matteodem/orion-cli"
+    "url": "https://github.com/mshill/orion-cli"
   },
   "bin": {
     "orion": "./bin/orion"
   },
-  "author": "Matteo De Micheli",
+  "author": "Mike Hill",
   "bugs": {
-    "url": "https://github.com/matteodem/orion-cli/issues"
+    "url": "https://github.com/mshill/orion-cli/issues"
   },
-  "homepage": "https://github.com/matteodem",
+  "homepage": "https://github.com/mshill",
   "dependencies": {
     "colors": "^1.0.3",
     "fs-extra": "^0.12.0",
+    "mkdirp": "^0.5.1",
     "nomnom": "1.8.0",
     "prompt": "0.2.12",
     "sugar": "1.4.1",

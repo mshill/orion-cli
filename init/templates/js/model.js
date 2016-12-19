@@ -1,6 +1,6 @@
-// { "path" : "universal/models/__modelName__.js" }
+// { "path" : "imports/models/__modelName__/__modelName__.js" }
 
-const __modelName__ = new Mongo.Collection('__modelName__');
+const __modelName__ = new Mongo.Collection('__modelName__'.toLowerCase());
 
 __modelName__.attachSchema(
     new SimpleSchema({

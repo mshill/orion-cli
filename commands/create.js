@@ -25,7 +25,7 @@ module.exports = function (opts) {
     process.stdout.write("Downloading".yellow + dots.yellow);
   }, 300);
 
-  github.get('matteodem/meteor-boilerplate#master', appPath, function (err) {
+  github.get('mshill/meteor-boilerplate#master', appPath, function (err) {
     if (err) {
       console.error(err.red);
     }

@@ -1,6 +1,6 @@
 exports.execute = function () {
-  var parser = require('nomnom');
-  var pjson = require('./package.json');
+  const parser = require('nomnom');
+  const pjson = require('./package.json');
 
   // Get name of binary
   parser.script( Object.keys( pjson.bin )[0] );
@@ -22,7 +22,7 @@ exports.execute = function () {
       help: "Choose between default (javascript), es6 (harmony) or coffee (coffeescript) profiles"
     }) */
     .callback(require('./commands/create'))
-    .help('Creates a new app with the Meteor Boilerplate')
+    .help('>>>>>Creates a new app with the Meteor Boilerplate')
   ;
 
   // Init Command

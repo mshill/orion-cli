@@ -1,5 +1,5 @@
 
 // { "path" : "client/entry.js" }
-import createMainRoutes from '../universal/routes/mainRoutes.js';
+import createMainRoutes from '../imports/routes/mainRoutes.js';
 
 createMainRoutes();

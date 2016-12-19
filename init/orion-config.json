@@ -56,9 +56,10 @@
         ],
         "files" : [
           "private/templates/js/model.js",
+          "private/templates/js/methods.js",
           "private/templates/js/publication.js"
         ],
-        "notice" : "Dont forget to add Meteor.subscribe('__modelName__'); to your route!"
+        "notice" : "Don't forget to add Meteor.subscribe('__modelName__'); to your route!"
       },
       "coffee" : {
         "files" : [
@@ -138,7 +139,7 @@
       "remove" : [
         "client/components",
         "client/stylesheets/main.less",
-        "universal/routes/",
+        "imports/routes/",
         "client/entry.js"
       ],
       "files" : [
