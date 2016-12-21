@@ -1,12 +1,10 @@
 {
   "name": "orion-cli",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Console scaffolding and development tool for Meteor Projects",
   "main": "notExistant.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pack": "npm pack",
-    "install": "npm install ./*.tgz"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",

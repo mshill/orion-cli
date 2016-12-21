@@ -1,6 +1,6 @@
 // { "path" : "imports/models/__modelName__/__modelName__.js" }
 
-const __modelName__ = new Mongo.Collection('__modelName__'.toLowerCase());
+const __modelName__ = new Mongo.Collection('__collectionName__');
 
 __modelName__.attachSchema(
     new SimpleSchema({

@@ -110,7 +110,10 @@ module.exports = function (opts) {
             return obj;
         }, {});
 
+        values.collectionName = values.modelName.toLowerCase();
+
         values.templateName = opts.name;
+        //values.templateName = opts.name;
 
         generateFiles(values, templateConf);
     } else {
