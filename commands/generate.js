@@ -111,9 +111,11 @@ module.exports = function (opts) {
         }, {});
 
         values.collectionName = values.modelName.toLowerCase();
+        if (opts.name === 'model') {
+            FileManager.addImportToEntry(values, values.modelName);
+        }
 
         values.templateName = opts.name;
-        //values.templateName = opts.name;
 
         generateFiles(values, templateConf);
     } else {
@@ -131,3 +133,5 @@ module.exports = function (opts) {
         });
     }
 };
+
+
