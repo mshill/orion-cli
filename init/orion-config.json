@@ -17,7 +17,7 @@
     },
     "routes" : {
       "default" : {
-        "desc" : "Create a group of routes with Iron Router",
+        "desc" : "Create a group of routes with Flow Router",
         "variables" : [
           {
             "name" : "routeName",
@@ -82,7 +82,7 @@
     },
     "layout" : {
       "default" : {
-        "desc" : "Iron Layout template which yields your content",
+        "desc" : "Layout template which yields your content",
         "variables" : [
           {
             "name" : "layoutName",
